@@ -1,7 +1,121 @@
 <!DOCTYPE html>
-<html><head><title>Success</title><link rel="stylesheet" href="style.css"></head>
-<body><div class="container">
-<h1>✔</h1>
-<h2>Account Created Successfully!</h2>
-<a href="login.html"><button>Continue</button></a>
-</div></body></html>
+<html>
+<head>
+<title>Success</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(
+135deg,
+#DFFFE3,
+#EFFFF2
+);
+}
+
+.card{
+width:350px;
+background:white;
+padding:35px;
+border-radius:35px;
+text-align:center;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.1);
+}
+
+.tick{
+width:120px;
+height:120px;
+
+background:
+linear-gradient(
+135deg,
+#43C95B,
+#2CBF4A
+);
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:60px;
+color:white;
+
+margin:auto;
+}
+
+h1{
+margin-top:20px;
+color:#39B54A;
+}
+
+p{
+margin-top:15px;
+line-height:1.8;
+color:#666;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+
+padding:15px 30px;
+
+background:
+linear-gradient(
+90deg,
+#43C95B,
+#2CBF4A
+);
+
+color:white;
+text-decoration:none;
+
+border-radius:50px;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="tick">
+✓
+</div>
+
+<h1>
+Welcome to HeartBowl!
+</h1>
+
+<p>
+Your account is ready 🎉<br>
+Enjoy every bite.
+</p>
+
+<a href="index.html"
+class="btn">
+
+✨ Start Exploring
+
+</a>
+
+</div>
+
+</body>
+</html>
